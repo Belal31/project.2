@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 960px;
+    background-color: #a842a8;
+    margin: auto;
+}
+/*nav tage start*/
+nav{
+    width: 960px;
+    min-height: 38px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px 33px;
+    background-color: orange;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+}
+/*nav tage end*/
+/*main tage start*/
+.main_wrapper .image{
+    background-image: url(./img/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 580px;
+    height: 220px;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: left;
+}
+.main_wrapper .image h2{
+    width: 190px;
+    background-color: orange;
+    padding: 5px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.main_wrapper .image h5{
+    width: 110px;
+    background-color: orange;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.div_wrapper {
+    width: 360px;
+    display: inline-block;
+
+    
+}
+.div_wrapper .div1{
+    width: 360px;
+    height: 105px;
+    background-color: orange;
+    position: relative;
+
+   
+    
+}
+.div_wrapper .div2{
+    width: 360px;
+    height: 105px;
+    background-color: orange;
+    margin-top: 10px;
+    position: relative;
+}
+.div_wrapper h2{
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%);
+
+
+    
+}
+.div_wrapper .product{
+    font-size: 14px;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%);
+   
+}
+
+
+
+/*main tage end*/
+/*section part start*/
+.section{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section .div1{
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 5px;
+}
+.section .div1:last-child{
+    margin-right: 5px;
+}
+.section .div1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 42%;
+}
+.section .div1 h4{
+    text-align: center;
+}
+.section .div1 p{
+    text-align: center;
+}
+/*section part end*/
+/*article part start*/
+.article{
+    width: 890px;
+    padding: 30px;
+    display: flex;
+    overflow: hidden;
+    /*background-color: #fff;*/
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.article .div1{
+    width: 200px;
+    float: left;
+}
+.article .div1 img{
+    width: 150px;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.article .div2{
+    float: right;
+    width: 600px;
+    line-height: 30px;
+    padding: 10px 0px; 
+}
+.article .div2 a{
+    background-color: orange;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.article .div2 a:hover{
+    background-color: #293fbd;
+}
+
+/*article part start*/
+/*summary part start*/
+.summary{
+    width: 960px;
+}
+/*.summary .div1 .hr1{
+    width: 350px;
+    margin-top: 20px;
+    
+}
+.summary .div1 .hr2{
+    width: 350px;
+    float: right;
+    margin-bottom: 60px;
+}*/
+.summary .div1 h3{
+    width: 150px;
+    /*background-color: red;*/
+    margin: auto;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.summary .div2{
+    margin-left: 10px;
+}
+.summary .div2 img{
+    width: 185px;
+    height: 150px;
+}
+
+/*summary part end*/
+/*footer part start*/
+footer{
+    width: 960px;
+    min-height: 40px;
+    background-color: #a842a8;
+}
+footer .left{
+    width: 320px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+foomar .right{
+    width: 600px;
+    float: right;
+}
+footer .right ul{
+    
+    min-height: 38px;
+    list-style-type: none;
+}
+footer .right ul li{
+    list-style-type: none;
+    float: left;
+    border-right: 1px solid #605B5B;
+}
+footer .right ul li a{
+    text-decoration: none;
+    
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+}
+footer .right ul li:last-child{
+    border-right: none;
+}
+/*footer part end*/
